@@ -51,7 +51,8 @@ setup(
                       'tabulate>=0.7',
                       'tensorflow-gpu==1.13.1',
                       'PyYAML>=3.12'
-                      ],
+                      'jupyterlab',
+                      'kaggle'],
 
     entry_points={
         'console_scripts': [
